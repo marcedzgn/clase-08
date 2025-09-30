@@ -116,10 +116,10 @@
                 data.forEach((a)=>{
                     if(a.info.dimorfism.value == "No"){
                        
-                        if(a.info.iucn.value == "Vulnerable(VU)"){
+                        if(a.info.migration.value == "Sí"){
                         
                             grid.innerHTML += `<div class="grid-item"><img src="${a.
-                                imageurl.replace("http://www.buscaves.cl/","https://buscaves.cl/")}"/><p>${a,names.spanish}</p><small>${a,names.latin}</small></div>`
+                                image.url.replace("http://www.buscaves.cl/","https://buscaves.cl/")}"/><p>${a.names.spanish}</p><small>${a.names.latin}</small></div>`
                 }
                 
             }
